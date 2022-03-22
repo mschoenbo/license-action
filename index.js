@@ -33,20 +33,24 @@ try {
         core.setFailed(err);
       }
       core.info("All packages passed the license check");
-      core.info(packages);
 
       const formattedOutput = checker.asMarkDown(packages) + "\n";
-      core.info(formattedOutput);
 
       const out = "public/" + core.getInput("out");
 
       var dir = path.dirname(out);
       mkdirp.sync(dir);
-      fs.writeFileSync(
-        out,
-        `<html><body><pre><code>${formattedOutput}</code></pre></body></html>`,
-        "utf8"
-      );
+      if (core.getInput("markdown") === "true")
+        fs.writeFileSync(
+          out,
+          `Licenses \n ========== \n ${formattedOutput}`,
+          "utf8"
+        );
+      else
+        fs.writeFileSync(
+          out,
+          `<html><body><pre><code>${formattedOutput}</code></pre></body></html>`
+        );
 
       core.setOutput("licenseString", formattedOutput);
     }

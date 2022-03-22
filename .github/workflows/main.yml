@@ -13,14 +13,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: List directory
-        run: ls -al
-
       - name: Generate Licenses
         uses: ./ # Uses an action in the root directory
         id: hello
         with:
           production: true
+          markdown: true
+          out: README.md
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
