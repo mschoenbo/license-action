@@ -32,7 +32,11 @@ try {
 
       var dir = path.dirname(out);
       mkdirp.sync(dir);
-      fs.writeFileSync(out, formattedOutput, "utf8");
+      fs.writeFileSync(
+        out,
+        "`<html><body><pre><code>${formattedOutput}</code></pre></body></html>`",
+        "utf8"
+      );
 
       core.setOutput("licenseString", formattedOutput);
     }

@@ -32,7 +32,7 @@ inputs:
   out:
     description: 'write the data to a specific file.'
     required: false
-    default: 'licenses-list.md'
+    default: 'index.html'
 outputs:
   licenseString:
     description: 'The file of all licenses found'
