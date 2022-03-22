@@ -5,6 +5,9 @@ const checker = require("./lib/index");
 const path = require("path");
 const fs = require("fs");
 
+const customFormat =
+  '{"name": "","version": "","description": "","licenses": "","copyright": "","licenseModified": "no"}';
+
 try {
   checker.init(
     {
@@ -17,7 +20,7 @@ try {
       excludePrivatePackages:
         core.getInput("excludePrivatePackages") === "true",
       onlyAllow: core.getInput("onlyAllow"),
-      customFormat: core.getInput("customFormat"),
+      customFormat: customFormat,
     },
     function (err, packages) {
       if (err) {
@@ -28,10 +31,7 @@ try {
 
       if (core.getInput("markdown") === "true") {
         const formattedOutput =
-          checker.asMarkDown(
-            packages,
-            JSON.parse(core.getInput("customFormat"))
-          ) + "\n";
+          checker.asMarkDown(packages, JSON.parse(customFormat)) + "\n";
 
         const out = "public/" + core.getInput("out");
 
