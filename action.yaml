@@ -33,6 +33,10 @@ inputs:
     description: 'write the data to a specific file.'
     required: false
     default: 'index.html'
+  customFormat: 
+    description: 'to add a custom Format in JSON'
+    required: false
+    default: ''
 outputs:
   licenseString:
     description: 'The file of all licenses found'

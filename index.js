@@ -5,15 +5,6 @@ const checker = require("./lib/index");
 const path = require("path");
 const fs = require("fs");
 
-const customFormat = `{
-  "name": "",
-  "version": "",
-  "description": "",
-  "licenses": "",
-  "copyright": "",
-  "licenseModified": "no"
-}`;
-
 try {
   checker.init(
     {
@@ -26,7 +17,7 @@ try {
       excludePrivatePackages:
         core.getInput("excludePrivatePackages") === "true",
       onlyAllow: core.getInput("onlyAllow"),
-      customFormat: customFormat,
+      customFormat: core.getInput("customFormat"),
     },
     function (err, packages) {
       if (err) {
@@ -35,25 +26,25 @@ try {
       }
       core.info("All packages passed the license check");
 
-      const formattedOutput =
-        checker.asMarkDown(packages, JSON.parse(customFormat)) + "\n";
+      if (core.getInput("markdown") === "true") {
+        const formattedOutput =
+          checker.asMarkDown(
+            packages,
+            JSON.parse(core.getInput("customFormat"))
+          ) + "\n";
 
-      const out = "public/" + core.getInput("out");
+        const out = "public/" + core.getInput("out");
 
-      var dir = path.dirname(out);
-      mkdirp.sync(dir);
-      if (core.getInput("markdown") === "true")
+        var dir = path.dirname(out);
+        mkdirp.sync(dir);
         fs.writeFileSync(
           out,
           `Licenses \n ========== \n ${formattedOutput}`,
           "utf8"
         );
-      fs.writeFileSync(
-        "index.html",
-        `<html><body><pre><code>${formattedOutput}</code></pre></body></html>`
-      );
+      }
 
-      core.setOutput("licenseString", formattedOutput);
+      core.setOutput("licenseString", packages);
     }
   );
 } catch (error) {
