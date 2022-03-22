@@ -10,11 +10,25 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - name: Generate Licenses
         uses: ./ # Uses an action in the root directory
         id: hello
         with:
           production: true
+          markdown: true
+          out: README.md
+          customFormat: |
+            {
+              "name": "",
+              "version": "",
+              "description": "",
+              "licenses": "",
+              "copyright": "",
+              "licenseModified": "no"
+            }
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5

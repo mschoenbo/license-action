@@ -9,13 +9,15 @@ try {
   checker.init(
     {
       start: process.cwd(),
-      production: core.getInput("production"),
-      development: core.getInput("development"),
-      markdown: core.getInput("markdown"),
+      production: core.getInput("production") === "true",
+      development: core.getInput("development") === "true",
+      markdown: core.getInput("markdown") === "true",
       exclude: core.getInput("exclude"),
       excludePackages: core.getInput("excludePackages"),
-      excludePrivatePackages: core.getInput("excludePrivatePackages"),
+      excludePrivatePackages:
+        core.getInput("excludePrivatePackages") === "true",
       onlyAllow: core.getInput("onlyAllow"),
+      customFormat: core.getInput("customFormat"),
     },
     function (err, packages) {
       if (err) {
@@ -23,22 +25,26 @@ try {
         core.setFailed(err);
       }
       core.info("All packages passed the license check");
-      core.info(packages);
 
-      const formattedOutput = checker.asMarkDown(packages) + "\n";
-      core.info(formattedOutput);
+      if (core.getInput("markdown") === "true") {
+        const formattedOutput =
+          checker.asMarkDown(
+            packages,
+            JSON.parse(core.getInput("customFormat"))
+          ) + "\n";
 
-      const out = "public/" + core.getInput("out");
+        const out = "public/" + core.getInput("out");
 
-      var dir = path.dirname(out);
-      mkdirp.sync(dir);
-      fs.writeFileSync(
-        out,
-        `<html><body><pre><code>${formattedOutput}</code></pre></body></html>`,
-        "utf8"
-      );
+        var dir = path.dirname(out);
+        mkdirp.sync(dir);
+        fs.writeFileSync(
+          out,
+          `Licenses \n ========== \n ${formattedOutput}`,
+          "utf8"
+        );
+      }
 
-      core.setOutput("licenseString", formattedOutput);
+      core.setOutput("licenseString", packages);
     }
   );
 } catch (error) {
