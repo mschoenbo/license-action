@@ -7,6 +7,14 @@ const fs = require("fs");
 
 try {
   core.info(process.cwd());
+
+  fs.readdir(path, function (err, items) {
+    core.info(JSON.stringify(items));
+
+    for (var i = 0; i < items.length; i++) {
+      core.info(items[i]);
+    }
+  });
   checker.init(
     {
       start: process.cwd(),
