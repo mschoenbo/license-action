@@ -1,562 +1,562 @@
 Licenses 
  ========== 
   - **[@actions/core@1.6.0](https://github.com/actions/toolkit)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @actions/core
+    - version: 1.6.0
+    - description: Actions core lib
     - licenses: MIT
     - copyright: Copyright 2019 GitHub
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@actions/github@5.0.0](https://github.com/actions/toolkit)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @actions/github
+    - version: 5.0.0
+    - description: Actions github lib
     - licenses: MIT
     - copyright: Copyright 2019 GitHub
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@actions/http-client@1.0.11](https://github.com/actions/http-client)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @actions/http-client
+    - version: 1.0.11
+    - description: Actions Http Client
     - licenses: MIT
     - copyright: Copyright (c) GitHub, Inc.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/auth-token@2.5.0](https://github.com/octokit/auth-token.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/auth-token
+    - version: 2.5.0
+    - description: GitHub API token authentication for browsers and Node.js
     - licenses: MIT
     - copyright: Copyright (c) 2019 Octokit contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/core@3.6.0](https://github.com/octokit/core.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/core
+    - version: 3.6.0
+    - description: Extendable client for GitHub's REST & GraphQL APIs
     - licenses: MIT
     - copyright: Copyright (c) 2019 Octokit contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/endpoint@6.0.12](https://github.com/octokit/endpoint.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/endpoint
+    - version: 6.0.12
+    - description: Turns REST API endpoints into generic request options
     - licenses: MIT
     - copyright: Copyright (c) 2018 Octokit contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/graphql@4.8.0](https://github.com/octokit/graphql.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/graphql
+    - version: 4.8.0
+    - description: GitHub GraphQL API client for browsers and Node
     - licenses: MIT
     - copyright: Copyright (c) 2018 Octokit contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/openapi-types@11.2.0](https://github.com/octokit/openapi-types.ts)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/openapi-types
+    - version: 11.2.0
+    - description: Generated TypeScript definitions based on GitHub's OpenAPI spec for api.github.com
     - licenses: MIT
     - copyright: Copyright 2020 Gregor Martynus
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/plugin-paginate-rest@2.17.0](https://github.com/octokit/plugin-paginate-rest.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/plugin-paginate-rest
+    - version: 2.17.0
+    - description: Octokit plugin to paginate REST API endpoint responses
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[@octokit/plugin-rest-endpoint-methods@5.13.0](https://github.com/octokit/plugin-rest-endpoint-methods.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/plugin-rest-endpoint-methods
+    - version: 5.13.0
+    - description: Octokit plugin adding one method for all of api.github.com REST API endpoints
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[@octokit/request-error@2.1.0](https://github.com/octokit/request-error.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/request-error
+    - version: 2.1.0
+    - description: Error class for Octokit request errors
     - licenses: MIT
     - copyright: Copyright (c) 2019 Octokit contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/request@5.6.3](https://github.com/octokit/request.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/request
+    - version: 5.6.3
+    - description: Send parameterized requests to GitHub's APIs with sensible defaults in browsers and Node
     - licenses: MIT
     - copyright: Copyright (c) 2018 Octokit contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[@octokit/types@6.34.0](https://github.com/octokit/types.ts)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: @octokit/types
+    - version: 6.34.0
+    - description: Shared TypeScript definitions for Octokit projects
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[abbrev@1.0.9](https://github.com/isaacs/abbrev-js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: abbrev
+    - version: 1.0.9
+    - description: Like ruby's abbrev module, but in js
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[ansi-styles@3.2.1](https://github.com/chalk/ansi-styles)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: ansi-styles
+    - version: 3.2.1
+    - description: ANSI escape codes for styling strings in the terminal
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[array-find-index@1.0.2](https://github.com/sindresorhus/array-find-index)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: array-find-index
+    - version: 1.0.2
+    - description: ES2015 `Array#findIndex()` ponyfill
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[asap@2.0.6](https://github.com/kriskowal/asap)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: asap
+    - version: 2.0.6
+    - description: High-priority task queue for Node.js and browsers
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[balanced-match@1.0.2](https://github.com/juliangruber/balanced-match)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: balanced-match
+    - version: 1.0.2
+    - description: Match balanced character pairs, like "{" and "}"
     - licenses: MIT
     - copyright: Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
-    - licenseModified: undefined
+    - licenseModified: no
  - **[before-after-hook@2.2.2](https://github.com/gr2m/before-after-hook)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: before-after-hook
+    - version: 2.2.2
+    - description: asynchronous before/error/after hooks for internal functionality
     - licenses: Apache-2.0
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[brace-expansion@1.1.11](https://github.com/juliangruber/brace-expansion)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: brace-expansion
+    - version: 1.1.11
+    - description: Brace expansion as known from sh/bash
     - licenses: MIT
     - copyright: Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
-    - licenseModified: undefined
+    - licenseModified: no
  - **[chalk@2.4.2](https://github.com/chalk/chalk)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: chalk
+    - version: 2.4.2
+    - description: Terminal string styling done right
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[color-convert@1.9.3](https://github.com/Qix-/color-convert)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: color-convert
+    - version: 1.9.3
+    - description: Plain color conversion functions
     - licenses: MIT
     - copyright: Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
-    - licenseModified: undefined
+    - licenseModified: no
  - **[color-name@1.1.3](https://github.com/dfcreative/color-name)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: color-name
+    - version: 1.1.3
+    - description: A list of color names and its values
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[concat-map@0.0.1](https://github.com/substack/node-concat-map)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: concat-map
+    - version: 0.0.1
+    - description: concatenative mapdashery
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[debug@3.2.7](https://github.com/visionmedia/debug)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: debug
+    - version: 3.2.7
+    - description: small debugging utility
     - licenses: MIT
     - copyright: Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
-    - licenseModified: undefined
+    - licenseModified: no
  - **[debuglog@1.0.1](https://github.com/sam-github/node-debuglog)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: debuglog
+    - version: 1.0.1
+    - description: backport of util.debuglog from node v0.11
     - licenses: MIT
     - copyright: Copyright Joyent, Inc. and other Node contributors. All rights reserved.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[deprecation@2.3.1](https://github.com/gr2m/deprecation)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: deprecation
+    - version: 2.3.1
+    - description: Log a deprecation message with stack
     - licenses: ISC
     - copyright: Copyright (c) Gregor Martynus and contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[dezalgo@1.0.3](https://github.com/npm/dezalgo)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: dezalgo
+    - version: 1.0.3
+    - description: Contain async insanity so that the dark pony lord doesn't eat souls
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[escape-string-regexp@1.0.5](https://github.com/sindresorhus/escape-string-regexp)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: escape-string-regexp
+    - version: 1.0.5
+    - description: Escape RegExp special characters
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[fs.realpath@1.0.0](https://github.com/isaacs/fs.realpath)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: fs.realpath
+    - version: 1.0.0
+    - description: Use node's fs.realpath, but fall back to the JS implementation if the native one fails
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[function-bind@1.1.1](https://github.com/Raynos/function-bind)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: function-bind
+    - version: 1.1.1
+    - description: Implementation of Function.prototype.bind
     - licenses: MIT
     - copyright: Copyright (c) 2013 Raynos.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[glob@7.2.0](https://github.com/isaacs/node-glob)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: glob
+    - version: 7.2.0
+    - description: a little globber
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[graceful-fs@4.2.9](https://github.com/isaacs/node-graceful-fs)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: graceful-fs
+    - version: 4.2.9
+    - description: A drop-in replacement for fs, making various improvements.
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter, Ben Noordhuis, and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[has-flag@3.0.0](https://github.com/sindresorhus/has-flag)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: has-flag
+    - version: 3.0.0
+    - description: Check if argv has a specific flag
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[has@1.0.3](https://github.com/tarruda/has)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: has
+    - version: 1.0.3
+    - description: Object.prototype.hasOwnProperty.call shortcut
     - licenses: MIT
     - copyright: Copyright (c) 2013 Thiago de Arruda
-    - licenseModified: undefined
+    - licenseModified: no
  - **[hosted-git-info@2.8.9](https://github.com/npm/hosted-git-info)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: hosted-git-info
+    - version: 2.8.9
+    - description: Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab
     - licenses: ISC
     - copyright: Copyright (c) 2015, Rebecca Turner
-    - licenseModified: undefined
+    - licenseModified: no
  - **[inflight@1.0.6](https://github.com/npm/inflight)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: inflight
+    - version: 1.0.6
+    - description: Add callbacks to requests in flight to avoid async duplication
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
+    - licenseModified: no
  - **[inherits@2.0.4](https://github.com/isaacs/inherits)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: inherits
+    - version: 2.0.4
+    - description: Browser-friendly inheritance fully compatible with standard node.js inherits()
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
+    - licenseModified: no
  - **[is-core-module@2.8.1](https://github.com/inspect-js/is-core-module)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: is-core-module
+    - version: 2.8.1
+    - description: Is this specifier a node.js core module?
     - licenses: MIT
     - copyright: Copyright (c) 2014 Dave Justice
-    - licenseModified: undefined
+    - licenseModified: no
  - **[is-plain-object@5.0.0](https://github.com/jonschlinkert/is-plain-object)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: is-plain-object
+    - version: 5.0.0
+    - description: Returns true if an object was created by the `Object` constructor, or Object.create(null).
     - licenses: MIT
     - copyright: Copyright (c) 2014-2017, Jon Schlinkert.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[json-parse-even-better-errors@2.3.1](https://github.com/npm/json-parse-even-better-errors)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: json-parse-even-better-errors
+    - version: 2.3.1
+    - description: JSON.parse with context information on error
     - licenses: MIT
     - copyright: Copyright 2017 Kat Marchán. Copyright npm, Inc.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[license-action@1.0.0](undefined)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: license-action
+    - version: 1.0.0
+    - description: A github action using the [NPM License Checker](https://github.com/davglass/license-checker).
     - licenses: UNLICENSED
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[minimatch@3.1.2](https://github.com/isaacs/minimatch)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: minimatch
+    - version: 3.1.2
+    - description: a glob matcher in javascript
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[minimist@1.2.6](https://github.com/substack/minimist)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: minimist
+    - version: 1.2.6
+    - description: parse argument options
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[mkdirp@0.5.5](https://github.com/substack/node-mkdirp)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: mkdirp
+    - version: 0.5.5
+    - description: Recursively mkdir, like `mkdir -p`
     - licenses: MIT
     - copyright: Copyright 2010 James Halliday (mail@substack.net)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[ms@2.1.3](https://github.com/vercel/ms)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: ms
+    - version: 2.1.3
+    - description: Tiny millisecond conversion utility
     - licenses: MIT
     - copyright: Copyright (c) 2020 Vercel, Inc.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[node-fetch@2.6.7](https://github.com/bitinn/node-fetch)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: node-fetch
+    - version: 2.6.7
+    - description: A light-weight module that brings window.fetch to node.js
     - licenses: MIT
     - copyright: Copyright (c) 2016 David Frank
-    - licenseModified: undefined
+    - licenseModified: no
  - **[nopt@4.0.3](https://github.com/npm/nopt)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: nopt
+    - version: 4.0.3
+    - description: Option parsing for Node, supporting types, shorthands, etc. Used by npm.
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[normalize-package-data@2.5.0](https://github.com/npm/normalize-package-data)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: normalize-package-data
+    - version: 2.5.0
+    - description: Normalizes data that can be found in package.json files.
     - licenses: BSD-2-Clause
     - copyright: Copyright (c) Meryn Stol ("Author"). All rights reserved.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[npm-normalize-package-bin@1.0.1](https://github.com/npm/npm-normalize-package-bin)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: npm-normalize-package-bin
+    - version: 1.0.1
+    - description: Turn any flavor of allowable package.json bin into a normalized object
     - licenses: ISC
     - copyright: Copyright (c) npm, Inc.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[once@1.4.0](https://github.com/isaacs/once)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: once
+    - version: 1.4.0
+    - description: Run a function exactly one time
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[os-homedir@1.0.2](https://github.com/sindresorhus/os-homedir)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: os-homedir
+    - version: 1.0.2
+    - description: Node.js 4 `os.homedir()` ponyfill
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[os-tmpdir@1.0.2](https://github.com/sindresorhus/os-tmpdir)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: os-tmpdir
+    - version: 1.0.2
+    - description: Node.js os.tmpdir() ponyfill
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[osenv@0.1.5](https://github.com/npm/osenv)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: osenv
+    - version: 0.1.5
+    - description: Look up environment settings specific to different operating systems
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[path-is-absolute@1.0.1](https://github.com/sindresorhus/path-is-absolute)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: path-is-absolute
+    - version: 1.0.1
+    - description: Node.js 0.12 path.isAbsolute() ponyfill
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[path-parse@1.0.7](https://github.com/jbgutierrez/path-parse)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: path-parse
+    - version: 1.0.7
+    - description: Node.js path.parse() ponyfill
     - licenses: MIT
     - copyright: Copyright (c) 2015 Javier Blanco
-    - licenseModified: undefined
+    - licenseModified: no
  - **[read-installed@4.0.3](https://github.com/isaacs/read-installed)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: read-installed
+    - version: 4.0.3
+    - description: Read all the installed packages in a folder, and return a tree structure with all the data.
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
+    - licenseModified: no
  - **[read-package-json@2.1.2](https://github.com/npm/read-package-json)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: read-package-json
+    - version: 2.1.2
+    - description: The thing npm uses to read package.json files with semantics and defaults and validation
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
+    - licenseModified: no
  - **[readdir-scoped-modules@1.1.0](https://github.com/npm/readdir-scoped-modules)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: readdir-scoped-modules
+    - version: 1.1.0
+    - description: Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[resolve@1.22.0](https://github.com/browserify/resolve)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: resolve
+    - version: 1.22.0
+    - description: resolve like require.resolve() on behalf of files asynchronously and synchronously
     - licenses: MIT
     - copyright: Copyright (c) 2012 James Halliday
-    - licenseModified: undefined
+    - licenseModified: no
  - **[semver@5.7.1](https://github.com/npm/node-semver)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: semver
+    - version: 5.7.1
+    - description: The semantic version parser used by npm.
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[slide@1.1.6](https://github.com/isaacs/slide-flow-control)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: slide
+    - version: 1.1.6
+    - description: A flow control lib small enough to fit on in a slide presentation. Derived live at Oak.JS
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
+    - licenseModified: no
  - **[spdx-compare@1.0.0](https://github.com/kemitchell/spdx-compare.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-compare
+    - version: 1.0.0
+    - description: compare SPDX license expressions
     - licenses: MIT
     - copyright: Copyright (c) 2015 Kyle E. Mitchell
-    - licenseModified: undefined
+    - licenseModified: no
  - **[spdx-correct@3.1.1](https://github.com/jslicense/spdx-correct.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-correct
+    - version: 3.1.1
+    - description: correct invalid SPDX expressions
     - licenses: Apache-2.0
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[spdx-exceptions@2.3.0](https://github.com/kemitchell/spdx-exceptions.json)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-exceptions
+    - version: 2.3.0
+    - description: list of SPDX standard license exceptions
     - licenses: CC-BY-3.0
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[spdx-expression-parse@3.0.1](https://github.com/jslicense/spdx-expression-parse.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-expression-parse
+    - version: 3.0.1
+    - description: parse SPDX license expressions
     - licenses: MIT
     - copyright: Copyright (c) 2015 Kyle E. Mitchell & other authors listed in AUTHORS
-    - licenseModified: undefined
+    - licenseModified: no
  - **[spdx-license-ids@3.0.11](https://github.com/jslicense/spdx-license-ids)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-license-ids
+    - version: 3.0.11
+    - description: A list of SPDX license identifiers
     - licenses: CC0-1.0
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[spdx-ranges@2.1.1](https://github.com/kemitchell/spdx-ranges.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-ranges
+    - version: 2.1.1
+    - description: list of SPDX standard license ranges
     - licenses: (MIT AND CC-BY-3.0)
     - copyright: Copyright (c) 2015 Kyle E. Mitchell
-    - licenseModified: undefined
+    - licenseModified: no
  - **[spdx-satisfies@4.0.1](https://github.com/kemitchell/spdx-satisfies.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: spdx-satisfies
+    - version: 4.0.1
+    - description: test whether SPDX expressions satisfy licensing criteria
     - licenses: MIT
     - copyright: Copyright (c) spdx-satisfies.js contributors
-    - licenseModified: undefined
+    - licenseModified: no
  - **[supports-color@5.5.0](https://github.com/chalk/supports-color)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: supports-color
+    - version: 5.5.0
+    - description: Detect whether a terminal supports color
     - licenses: MIT
     - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[supports-preserve-symlinks-flag@1.0.0](https://github.com/inspect-js/node-supports-preserve-symlinks-flag)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: supports-preserve-symlinks-flag
+    - version: 1.0.0
+    - description: Determine if the current node version supports the `--preserve-symlinks` flag.
     - licenses: MIT
     - copyright: Copyright (c) 2022 Inspect JS
-    - licenseModified: undefined
+    - licenseModified: no
  - **[tr46@0.0.3](https://github.com/Sebmaster/tr46.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: tr46
+    - version: 0.0.3
+    - description: An implementation of the Unicode TR46 spec
     - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[treeify@1.1.0](https://github.com/notatestuser/treeify)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: treeify
+    - version: 1.1.0
+    - description: converts a JS object into a nice and readable tree structure for the console
     - licenses: MIT
     - copyright: Copyright (c) 2012-2018 Luke Plaster <notatestuser@gmail.com>
-    - licenseModified: undefined
+    - licenseModified: no
  - **[tunnel@0.0.6](https://github.com/koichik/node-tunnel)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: tunnel
+    - version: 0.0.6
+    - description: Node HTTP/HTTPS Agents for tunneling proxies
     - licenses: MIT
     - copyright: Copyright (c) 2012 Koichi Kobayashi
-    - licenseModified: undefined
+    - licenseModified: no
  - **[universal-user-agent@6.0.0](https://github.com/gr2m/universal-user-agent)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: universal-user-agent
+    - version: 6.0.0
+    - description: Get a user agent string in both browser and node
     - licenses: ISC
     - copyright: Copyright (c) 2018, Gregor Martynus (https://github.com/gr2m)
-    - licenseModified: undefined
+    - licenseModified: no
  - **[util-extend@1.0.3](https://github.com/isaacs/util-extend)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: util-extend
+    - version: 1.0.3
+    - description: Node's internal object extension function
     - licenses: MIT
     - copyright: Copyright Joyent, Inc. and other Node contributors. All rights reserved.. Permission is hereby granted, free of charge, to any person obtaining a copy. of this software and associated documentation files (the "Software"), to. deal in the Software without restriction, including without limitation the. rights to use, copy, modify, merge, publish, distribute, sublicense, and/or. sell copies of the Software, and to permit persons to whom the Software is. furnished to do so, subject to the following conditions:
-    - licenseModified: undefined
+    - licenseModified: no
  - **[validate-npm-package-license@3.0.4](https://github.com/kemitchell/validate-npm-package-license.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: validate-npm-package-license
+    - version: 3.0.4
+    - description: Give me a string and I'll tell you if it's a valid npm package license string
     - licenses: Apache-2.0
-    - copyright: undefined
-    - licenseModified: undefined
+    - copyright: 
+    - licenseModified: no
  - **[webidl-conversions@3.0.1](https://github.com/jsdom/webidl-conversions)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: webidl-conversions
+    - version: 3.0.1
+    - description: Implements the WebIDL algorithms for converting to and from JavaScript values
     - licenses: BSD-2-Clause
     - copyright: Copyright (c) 2014, Domenic Denicola. All rights reserved.
-    - licenseModified: undefined
+    - licenseModified: no
  - **[whatwg-url@5.0.0](https://github.com/jsdom/whatwg-url)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: whatwg-url
+    - version: 5.0.0
+    - description: An implementation of the WHATWG URL Standard's URL API and parsing machinery
     - licenses: MIT
     - copyright: Copyright (c) 2015–2016 Sebastian Mayr
-    - licenseModified: undefined
+    - licenseModified: no
  - **[wrappy@1.0.2](https://github.com/npm/wrappy)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
+    - name: wrappy
+    - version: 1.0.2
+    - description: Callback wrapping utility
     - licenses: ISC
     - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+    - licenseModified: no
