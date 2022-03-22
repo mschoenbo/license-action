@@ -1,4 +1,6 @@
-<html><body><pre><code> - **[@actions/core@1.6.0](https://github.com/actions/toolkit)**
+Licenses 
+ ========== 
+  - **[@actions/core@1.6.0](https://github.com/actions/toolkit)**
     - 0: {
     - 1: 
 
@@ -10078,4 +10080,3 @@
     - 116: 
 
     - 117: }
-</code></pre></body></html>
