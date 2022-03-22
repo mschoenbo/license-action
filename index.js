@@ -6,6 +6,7 @@ const path = require("path");
 const fs = require("fs");
 
 try {
+  core.info(process.cwd());
   checker.init(
     {
       start: process.cwd(),
