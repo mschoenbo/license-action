@@ -1,0 +1,41 @@
+name: 'Dependency License Check'
+description: 'Checks the licenses of all dependencies of a project and generates a license file'
+inputs: 
+  production:
+    description: 'only show production dependencies.'
+    required: false
+    default: 'true'
+  development:
+    description: 'only show development dependencies.'
+    required: false
+    default: 'false'
+  markdown:
+    description: 'output in markdown format.'
+    required: false
+    default: 'true'
+  exclude:
+    description: 'exclude modules which licenses are in the comma-separated list from the output'
+    required: false
+    default: ''
+  excludePackages:
+    description: 'restrict output to the packages (package@version) not in the semicolon-seperated list'
+    required: false
+    default: ''
+  excludePrivatePackages:
+    description: 'restrict output to not include any package marked as private'
+    required: false
+    default: 'false'
+  onlyAllow:
+    description: 'fail (exit with code 1) on the first occurrence of the licenses not in the semicolon-seperated list'
+    required: false
+    default: ''
+  out:
+    description: 'write the data to a specific file.'
+    required: false
+    default: 'licenses-list.md'
+outputs:
+  licenseString:
+    description: 'The file of all licenses found'
+runs:
+  using: 'node16'
+  main: 'index.js'
