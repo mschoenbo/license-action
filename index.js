@@ -17,7 +17,7 @@ try {
       excludePrivatePackages:
         core.getInput("excludePrivatePackages") === "true",
       onlyAllow: core.getInput("onlyAllow"),
-      customFormat: core.getInput("customFormat"),
+      customFormat: JSON.parse(core.getInput("customFormat")),
     },
     function (err, packages) {
       if (err) {
@@ -32,7 +32,6 @@ try {
             packages,
             JSON.parse(core.getInput("customFormat"))
           ) + "\n";
-
         const out = "public/" + core.getInput("out");
 
         var dir = path.dirname(out);

@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matthias Schoenborn",
-  "license": "MIT",
+  "private": true,
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",
