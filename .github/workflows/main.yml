@@ -20,8 +20,15 @@ jobs:
           production: true
           markdown: true
           out: README.md
-          customFormat: '{"name": "", "version": "", "description": "", "licenses": "", "copyright": "", "licenseModified": "no"}'
-            
+          customFormat: |
+            {
+              "name": "",
+              "version": "",
+              "description": "",
+              "licenses": "",
+              "copyright": "",
+              "licenseModified": "no"
+            }
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
