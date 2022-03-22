@@ -1,562 +1,82 @@
 Licenses 
  ========== 
-  - **[@actions/core@1.6.0](https://github.com/actions/toolkit)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright 2019 GitHub
-    - licenseModified: undefined
- - **[@actions/github@5.0.0](https://github.com/actions/toolkit)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright 2019 GitHub
-    - licenseModified: undefined
- - **[@actions/http-client@1.0.11](https://github.com/actions/http-client)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) GitHub, Inc.
-    - licenseModified: undefined
- - **[@octokit/auth-token@2.5.0](https://github.com/octokit/auth-token.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2019 Octokit contributors
-    - licenseModified: undefined
- - **[@octokit/core@3.6.0](https://github.com/octokit/core.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2019 Octokit contributors
-    - licenseModified: undefined
- - **[@octokit/endpoint@6.0.12](https://github.com/octokit/endpoint.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2018 Octokit contributors
-    - licenseModified: undefined
- - **[@octokit/graphql@4.8.0](https://github.com/octokit/graphql.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2018 Octokit contributors
-    - licenseModified: undefined
- - **[@octokit/openapi-types@11.2.0](https://github.com/octokit/openapi-types.ts)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright 2020 Gregor Martynus
-    - licenseModified: undefined
- - **[@octokit/plugin-paginate-rest@2.17.0](https://github.com/octokit/plugin-paginate-rest.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[@octokit/plugin-rest-endpoint-methods@5.13.0](https://github.com/octokit/plugin-rest-endpoint-methods.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[@octokit/request-error@2.1.0](https://github.com/octokit/request-error.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2019 Octokit contributors
-    - licenseModified: undefined
- - **[@octokit/request@5.6.3](https://github.com/octokit/request.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2018 Octokit contributors
-    - licenseModified: undefined
- - **[@octokit/types@6.34.0](https://github.com/octokit/types.ts)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[abbrev@1.0.9](https://github.com/isaacs/abbrev-js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[ansi-styles@3.2.1](https://github.com/chalk/ansi-styles)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[array-find-index@1.0.2](https://github.com/sindresorhus/array-find-index)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[asap@2.0.6](https://github.com/kriskowal/asap)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[balanced-match@1.0.2](https://github.com/juliangruber/balanced-match)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
-    - licenseModified: undefined
- - **[before-after-hook@2.2.2](https://github.com/gr2m/before-after-hook)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: Apache-2.0
-    - copyright: undefined
-    - licenseModified: undefined
- - **[brace-expansion@1.1.11](https://github.com/juliangruber/brace-expansion)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
-    - licenseModified: undefined
- - **[chalk@2.4.2](https://github.com/chalk/chalk)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[color-convert@1.9.3](https://github.com/Qix-/color-convert)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
-    - licenseModified: undefined
- - **[color-name@1.1.3](https://github.com/dfcreative/color-name)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[concat-map@0.0.1](https://github.com/substack/node-concat-map)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[debug@3.2.7](https://github.com/visionmedia/debug)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
-    - licenseModified: undefined
- - **[debuglog@1.0.1](https://github.com/sam-github/node-debuglog)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright Joyent, Inc. and other Node contributors. All rights reserved.
-    - licenseModified: undefined
- - **[deprecation@2.3.1](https://github.com/gr2m/deprecation)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Gregor Martynus and contributors
-    - licenseModified: undefined
- - **[dezalgo@1.0.3](https://github.com/npm/dezalgo)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[escape-string-regexp@1.0.5](https://github.com/sindresorhus/escape-string-regexp)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[fs.realpath@1.0.0](https://github.com/isaacs/fs.realpath)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[function-bind@1.1.1](https://github.com/Raynos/function-bind)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2013 Raynos.
-    - licenseModified: undefined
- - **[glob@7.2.0](https://github.com/isaacs/node-glob)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[graceful-fs@4.2.9](https://github.com/isaacs/node-graceful-fs)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter, Ben Noordhuis, and Contributors
-    - licenseModified: undefined
- - **[has-flag@3.0.0](https://github.com/sindresorhus/has-flag)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[has@1.0.3](https://github.com/tarruda/has)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2013 Thiago de Arruda
-    - licenseModified: undefined
- - **[hosted-git-info@2.8.9](https://github.com/npm/hosted-git-info)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) 2015, Rebecca Turner
-    - licenseModified: undefined
- - **[inflight@1.0.6](https://github.com/npm/inflight)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
- - **[inherits@2.0.4](https://github.com/isaacs/inherits)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
- - **[is-core-module@2.8.1](https://github.com/inspect-js/is-core-module)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2014 Dave Justice
-    - licenseModified: undefined
- - **[is-plain-object@5.0.0](https://github.com/jonschlinkert/is-plain-object)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2014-2017, Jon Schlinkert.
-    - licenseModified: undefined
- - **[json-parse-even-better-errors@2.3.1](https://github.com/npm/json-parse-even-better-errors)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright 2017 Kat Marchán. Copyright npm, Inc.
-    - licenseModified: undefined
- - **[license-action@1.0.0](undefined)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2022 Matthias Schönborn
-    - licenseModified: undefined
- - **[minimatch@3.1.2](https://github.com/isaacs/minimatch)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[minimist@1.2.6](https://github.com/substack/minimist)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[mkdirp@0.5.5](https://github.com/substack/node-mkdirp)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright 2010 James Halliday (mail@substack.net)
-    - licenseModified: undefined
- - **[ms@2.1.3](https://github.com/vercel/ms)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2020 Vercel, Inc.
-    - licenseModified: undefined
- - **[node-fetch@2.6.7](https://github.com/bitinn/node-fetch)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2016 David Frank
-    - licenseModified: undefined
- - **[nopt@4.0.3](https://github.com/npm/nopt)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[normalize-package-data@2.5.0](https://github.com/npm/normalize-package-data)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: BSD-2-Clause
-    - copyright: Copyright (c) Meryn Stol ("Author"). All rights reserved.
-    - licenseModified: undefined
- - **[npm-normalize-package-bin@1.0.1](https://github.com/npm/npm-normalize-package-bin)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) npm, Inc.
-    - licenseModified: undefined
- - **[once@1.4.0](https://github.com/isaacs/once)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[os-homedir@1.0.2](https://github.com/sindresorhus/os-homedir)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[os-tmpdir@1.0.2](https://github.com/sindresorhus/os-tmpdir)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[osenv@0.1.5](https://github.com/npm/osenv)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[path-is-absolute@1.0.1](https://github.com/sindresorhus/path-is-absolute)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[path-parse@1.0.7](https://github.com/jbgutierrez/path-parse)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2015 Javier Blanco
-    - licenseModified: undefined
- - **[read-installed@4.0.3](https://github.com/isaacs/read-installed)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
- - **[read-package-json@2.1.2](https://github.com/npm/read-package-json)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
- - **[readdir-scoped-modules@1.1.0](https://github.com/npm/readdir-scoped-modules)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[resolve@1.22.0](https://github.com/browserify/resolve)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2012 James Halliday
-    - licenseModified: undefined
- - **[semver@5.7.1](https://github.com/npm/node-semver)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
- - **[slide@1.1.6](https://github.com/isaacs/slide-flow-control)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter
-    - licenseModified: undefined
- - **[spdx-compare@1.0.0](https://github.com/kemitchell/spdx-compare.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2015 Kyle E. Mitchell
-    - licenseModified: undefined
- - **[spdx-correct@3.1.1](https://github.com/jslicense/spdx-correct.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: Apache-2.0
-    - copyright: undefined
-    - licenseModified: undefined
- - **[spdx-exceptions@2.3.0](https://github.com/kemitchell/spdx-exceptions.json)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: CC-BY-3.0
-    - copyright: undefined
-    - licenseModified: undefined
- - **[spdx-expression-parse@3.0.1](https://github.com/jslicense/spdx-expression-parse.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2015 Kyle E. Mitchell & other authors listed in AUTHORS
-    - licenseModified: undefined
- - **[spdx-license-ids@3.0.11](https://github.com/jslicense/spdx-license-ids)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: CC0-1.0
-    - copyright: undefined
-    - licenseModified: undefined
- - **[spdx-ranges@2.1.1](https://github.com/kemitchell/spdx-ranges.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: (MIT AND CC-BY-3.0)
-    - copyright: Copyright (c) 2015 Kyle E. Mitchell
-    - licenseModified: undefined
- - **[spdx-satisfies@4.0.1](https://github.com/kemitchell/spdx-satisfies.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) spdx-satisfies.js contributors
-    - licenseModified: undefined
- - **[supports-color@5.5.0](https://github.com/chalk/supports-color)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    - licenseModified: undefined
- - **[supports-preserve-symlinks-flag@1.0.0](https://github.com/inspect-js/node-supports-preserve-symlinks-flag)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2022 Inspect JS
-    - licenseModified: undefined
- - **[tr46@0.0.3](https://github.com/Sebmaster/tr46.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: undefined
-    - licenseModified: undefined
- - **[treeify@1.1.0](https://github.com/notatestuser/treeify)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2012-2018 Luke Plaster <notatestuser@gmail.com>
-    - licenseModified: undefined
- - **[tunnel@0.0.6](https://github.com/koichik/node-tunnel)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2012 Koichi Kobayashi
-    - licenseModified: undefined
- - **[universal-user-agent@6.0.0](https://github.com/gr2m/universal-user-agent)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) 2018, Gregor Martynus (https://github.com/gr2m)
-    - licenseModified: undefined
- - **[util-extend@1.0.3](https://github.com/isaacs/util-extend)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright Joyent, Inc. and other Node contributors. All rights reserved.. Permission is hereby granted, free of charge, to any person obtaining a copy. of this software and associated documentation files (the "Software"), to. deal in the Software without restriction, including without limitation the. rights to use, copy, modify, merge, publish, distribute, sublicense, and/or. sell copies of the Software, and to permit persons to whom the Software is. furnished to do so, subject to the following conditions:
-    - licenseModified: undefined
- - **[validate-npm-package-license@3.0.4](https://github.com/kemitchell/validate-npm-package-license.js)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: Apache-2.0
-    - copyright: undefined
-    - licenseModified: undefined
- - **[webidl-conversions@3.0.1](https://github.com/jsdom/webidl-conversions)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: BSD-2-Clause
-    - copyright: Copyright (c) 2014, Domenic Denicola. All rights reserved.
-    - licenseModified: undefined
- - **[whatwg-url@5.0.0](https://github.com/jsdom/whatwg-url)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2015–2016 Sebastian Mayr
-    - licenseModified: undefined
- - **[wrappy@1.0.2](https://github.com/npm/wrappy)**
-    - name: undefined
-    - version: undefined
-    - description: undefined
-    - licenses: ISC
-    - copyright: Copyright (c) Isaac Z. Schlueter and Contributors
-    - licenseModified: undefined
+ [@actions/core@1.6.0](https://github.com/actions/toolkit) - MIT
+[@actions/github@5.0.0](https://github.com/actions/toolkit) - MIT
+[@actions/http-client@1.0.11](https://github.com/actions/http-client) - MIT
+[@octokit/auth-token@2.5.0](https://github.com/octokit/auth-token.js) - MIT
+[@octokit/core@3.6.0](https://github.com/octokit/core.js) - MIT
+[@octokit/endpoint@6.0.12](https://github.com/octokit/endpoint.js) - MIT
+[@octokit/graphql@4.8.0](https://github.com/octokit/graphql.js) - MIT
+[@octokit/openapi-types@11.2.0](https://github.com/octokit/openapi-types.ts) - MIT
+[@octokit/plugin-paginate-rest@2.17.0](https://github.com/octokit/plugin-paginate-rest.js) - MIT
+[@octokit/plugin-rest-endpoint-methods@5.13.0](https://github.com/octokit/plugin-rest-endpoint-methods.js) - MIT
+[@octokit/request-error@2.1.0](https://github.com/octokit/request-error.js) - MIT
+[@octokit/request@5.6.3](https://github.com/octokit/request.js) - MIT
+[@octokit/types@6.34.0](https://github.com/octokit/types.ts) - MIT
+[abbrev@1.0.9](https://github.com/isaacs/abbrev-js) - ISC
+[ansi-styles@3.2.1](https://github.com/chalk/ansi-styles) - MIT
+[array-find-index@1.0.2](https://github.com/sindresorhus/array-find-index) - MIT
+[asap@2.0.6](https://github.com/kriskowal/asap) - MIT
+[balanced-match@1.0.2](https://github.com/juliangruber/balanced-match) - MIT
+[before-after-hook@2.2.2](https://github.com/gr2m/before-after-hook) - Apache-2.0
+[brace-expansion@1.1.11](https://github.com/juliangruber/brace-expansion) - MIT
+[chalk@2.4.2](https://github.com/chalk/chalk) - MIT
+[color-convert@1.9.3](https://github.com/Qix-/color-convert) - MIT
+[color-name@1.1.3](https://github.com/dfcreative/color-name) - MIT
+[concat-map@0.0.1](https://github.com/substack/node-concat-map) - MIT
+[debug@3.2.7](https://github.com/visionmedia/debug) - MIT
+[debuglog@1.0.1](https://github.com/sam-github/node-debuglog) - MIT
+[deprecation@2.3.1](https://github.com/gr2m/deprecation) - ISC
+[dezalgo@1.0.3](https://github.com/npm/dezalgo) - ISC
+[escape-string-regexp@1.0.5](https://github.com/sindresorhus/escape-string-regexp) - MIT
+[fs.realpath@1.0.0](https://github.com/isaacs/fs.realpath) - ISC
+[function-bind@1.1.1](https://github.com/Raynos/function-bind) - MIT
+[glob@7.2.0](https://github.com/isaacs/node-glob) - ISC
+[graceful-fs@4.2.9](https://github.com/isaacs/node-graceful-fs) - ISC
+[has-flag@3.0.0](https://github.com/sindresorhus/has-flag) - MIT
+[has@1.0.3](https://github.com/tarruda/has) - MIT
+[hosted-git-info@2.8.9](https://github.com/npm/hosted-git-info) - ISC
+[inflight@1.0.6](https://github.com/npm/inflight) - ISC
+[inherits@2.0.4](https://github.com/isaacs/inherits) - ISC
+[is-core-module@2.8.1](https://github.com/inspect-js/is-core-module) - MIT
+[is-plain-object@5.0.0](https://github.com/jonschlinkert/is-plain-object) - MIT
+[json-parse-even-better-errors@2.3.1](https://github.com/npm/json-parse-even-better-errors) - MIT
+[license-action@1.0.0](undefined) - MIT
+[minimatch@3.1.2](https://github.com/isaacs/minimatch) - ISC
+[minimist@1.2.6](https://github.com/substack/minimist) - MIT
+[mkdirp@0.5.5](https://github.com/substack/node-mkdirp) - MIT
+[ms@2.1.3](https://github.com/vercel/ms) - MIT
+[node-fetch@2.6.7](https://github.com/bitinn/node-fetch) - MIT
+[nopt@4.0.3](https://github.com/npm/nopt) - ISC
+[normalize-package-data@2.5.0](https://github.com/npm/normalize-package-data) - BSD-2-Clause
+[npm-normalize-package-bin@1.0.1](https://github.com/npm/npm-normalize-package-bin) - ISC
+[once@1.4.0](https://github.com/isaacs/once) - ISC
+[os-homedir@1.0.2](https://github.com/sindresorhus/os-homedir) - MIT
+[os-tmpdir@1.0.2](https://github.com/sindresorhus/os-tmpdir) - MIT
+[osenv@0.1.5](https://github.com/npm/osenv) - ISC
+[path-is-absolute@1.0.1](https://github.com/sindresorhus/path-is-absolute) - MIT
+[path-parse@1.0.7](https://github.com/jbgutierrez/path-parse) - MIT
+[read-installed@4.0.3](https://github.com/isaacs/read-installed) - ISC
+[read-package-json@2.1.2](https://github.com/npm/read-package-json) - ISC
+[readdir-scoped-modules@1.1.0](https://github.com/npm/readdir-scoped-modules) - ISC
+[resolve@1.22.0](https://github.com/browserify/resolve) - MIT
+[semver@5.7.1](https://github.com/npm/node-semver) - ISC
+[slide@1.1.6](https://github.com/isaacs/slide-flow-control) - ISC
+[spdx-compare@1.0.0](https://github.com/kemitchell/spdx-compare.js) - MIT
+[spdx-correct@3.1.1](https://github.com/jslicense/spdx-correct.js) - Apache-2.0
+[spdx-exceptions@2.3.0](https://github.com/kemitchell/spdx-exceptions.json) - CC-BY-3.0
+[spdx-expression-parse@3.0.1](https://github.com/jslicense/spdx-expression-parse.js) - MIT
+[spdx-license-ids@3.0.11](https://github.com/jslicense/spdx-license-ids) - CC0-1.0
+[spdx-ranges@2.1.1](https://github.com/kemitchell/spdx-ranges.js) - (MIT AND CC-BY-3.0)
+[spdx-satisfies@4.0.1](https://github.com/kemitchell/spdx-satisfies.js) - MIT
+[supports-color@5.5.0](https://github.com/chalk/supports-color) - MIT
+[supports-preserve-symlinks-flag@1.0.0](https://github.com/inspect-js/node-supports-preserve-symlinks-flag) - MIT
+[tr46@0.0.3](https://github.com/Sebmaster/tr46.js) - MIT
+[treeify@1.1.0](https://github.com/notatestuser/treeify) - MIT
+[tunnel@0.0.6](https://github.com/koichik/node-tunnel) - MIT
+[universal-user-agent@6.0.0](https://github.com/gr2m/universal-user-agent) - ISC
+[util-extend@1.0.3](https://github.com/isaacs/util-extend) - MIT
+[validate-npm-package-license@3.0.4](https://github.com/kemitchell/validate-npm-package-license.js) - Apache-2.0
+[webidl-conversions@3.0.1](https://github.com/jsdom/webidl-conversions) - BSD-2-Clause
+[whatwg-url@5.0.0](https://github.com/jsdom/whatwg-url) - MIT
+[wrappy@1.0.2](https://github.com/npm/wrappy) - ISC
