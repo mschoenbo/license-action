@@ -32,9 +32,6 @@ try {
             packages,
             JSON.parse(core.getInput("customFormat"))
           ) + "\n";
-
-        core.info(formattedOutput);
-
         const out = "public/" + core.getInput("out");
 
         var dir = path.dirname(out);
