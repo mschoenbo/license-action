@@ -35,7 +35,8 @@ try {
       }
       core.info("All packages passed the license check");
 
-      const formattedOutput = checker.asMarkDown(packages, customFormat) + "\n";
+      const formattedOutput =
+        checker.asMarkDown(packages, JSON.parse(customFormat)) + "\n";
 
       const out = "public/" + core.getInput("out");
 
