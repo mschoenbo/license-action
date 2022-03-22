@@ -1,0 +1,39 @@
+{
+  "name": "license-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Schoenborn",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "mkdirp": "^0.5.1",
+    "nopt": "^4.0.1",
+    "read-installed": "~4.0.3",
+    "semver": "^5.5.0",
+    "spdx-correct": "^3.0.0",
+    "spdx-expression-parse": "^3.0.0",
+    "spdx-satisfies": "^4.0.0",
+    "treeify": "^1.1.0"
+  },
+  "devDependencies": {
+    "camden.jshint": "github:cfjedimaster/brackets-jshint",
+    "detectionizr": "*",
+    "eslint": "^8.11.0",
+    "format-package-json": "^0.2.0",
+    "git-contributors": "^0.2.3",
+    "github-changes": "^2.0.3",
+    "istanbul": "^0.4.3",
+    "jenkins-mocha": "^9.0.0",
+    "locale": "^0.1.0",
+    "queue": "^4.4.2",
+    "request": "^2.85.0",
+    "rimraf": "^2.6.2"
+  }
+}
