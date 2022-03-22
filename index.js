@@ -18,12 +18,13 @@ try {
   checker.init(
     {
       start: process.cwd(),
-      production: core.getInput("production"),
-      development: core.getInput("development"),
-      markdown: core.getInput("markdown"),
+      production: core.getInput("production") === "true",
+      development: core.getInput("development") === "true",
+      markdown: core.getInput("markdown") === "true",
       exclude: core.getInput("exclude"),
       excludePackages: core.getInput("excludePackages"),
-      excludePrivatePackages: core.getInput("excludePrivatePackages"),
+      excludePrivatePackages:
+        core.getInput("excludePrivatePackages") === "true",
       onlyAllow: core.getInput("onlyAllow"),
     },
     function (err, packages) {
