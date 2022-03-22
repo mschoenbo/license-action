@@ -291,8 +291,8 @@ Licenses
     - name: undefined
     - version: undefined
     - description: undefined
-    - licenses: MIT
-    - copyright: Copyright (c) 2022 Matthias Schönborn
+    - licenses: Custom: https://github.com/davglass/license-checker
+    - copyright: undefined
     - licenseModified: undefined
  - **[minimatch@3.1.2](https://github.com/isaacs/minimatch)**
     - name: undefined
