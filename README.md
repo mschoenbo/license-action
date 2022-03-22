@@ -1,4 +1,6 @@
-<html><body><pre><code>[@actions/core@1.6.0](https://github.com/actions/toolkit) - MIT
+Licenses 
+ ========== 
+ [@actions/core@1.6.0](https://github.com/actions/toolkit) - MIT
 [@actions/github@5.0.0](https://github.com/actions/toolkit) - MIT
 [@actions/http-client@1.0.11](https://github.com/actions/http-client) - MIT
 [@octokit/auth-token@2.5.0](https://github.com/octokit/auth-token.js) - MIT
@@ -78,4 +80,3 @@
 [webidl-conversions@3.0.1](https://github.com/jsdom/webidl-conversions) - BSD-2-Clause
 [whatwg-url@5.0.0](https://github.com/jsdom/whatwg-url) - MIT
 [wrappy@1.0.2](https://github.com/npm/wrappy) - ISC
-</code></pre></body></html>
