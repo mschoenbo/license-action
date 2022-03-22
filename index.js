@@ -48,7 +48,7 @@ try {
           "utf8"
         );
       fs.writeFileSync(
-        out,
+        "index.html",
         `<html><body><pre><code>${formattedOutput}</code></pre></body></html>`
       );
 
