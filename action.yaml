@@ -36,7 +36,7 @@ inputs:
   customFormat: 
     description: 'to add a custom Format in JSON'
     required: false
-    default: ''
+    default: '{}'
 outputs:
   licenseString:
     description: 'The file of all licenses found'
