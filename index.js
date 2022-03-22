@@ -34,7 +34,7 @@ try {
       mkdirp.sync(dir);
       fs.writeFileSync(
         out,
-        "`<html><body><pre><code>${formattedOutput}</code></pre></body></html>`",
+        `<html><body><pre><code>${formattedOutput}</code></pre></body></html>`,
         "utf8"
       );
 
